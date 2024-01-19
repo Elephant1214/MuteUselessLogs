@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "me.elephant1214.muteuselesslogs.mixin",
+    "refmap": "muteuselesslogs-refmap.json",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "MixinGameData",
+        "MixinTextureMap"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
