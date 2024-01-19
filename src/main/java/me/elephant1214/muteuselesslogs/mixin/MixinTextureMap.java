@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(value = TextureMap.class, priority = 1)
 public class MixinTextureMap {
     @Redirect(
-            method = "generateMipmaps",
+            method = "*",
             at = @At(
                     value = "INVOKE",
                     target = "Lorg/apache/logging/log4j/Logger;error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V",
