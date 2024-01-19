@@ -4,7 +4,7 @@
     "package": "me.elephant1214.muteuselesslogs.mixin",
     "refmap": "muteuselesslogs-refmap.json",
     "compatibilityLevel": "JAVA_8",
-    "mixins": [
+    "client": [
         "MixinGameData",
         "MixinTextureMap"
     ],
