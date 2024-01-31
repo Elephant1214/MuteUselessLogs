@@ -9,7 +9,7 @@ plugins {
 val modGroup: String by project
 val modID: String by project
 group = modGroup
-version = "1.0.0"
+version = "1.0.1"
 
 val tweakClass: String by project
 val mixinConfig: String by project
@@ -72,7 +72,7 @@ java {
 tasks {
     processResources {
         project.projectDir.walkTopDown().forEach { file ->
-            if (file.name in listOf("mcmod.info", "ShutUpTexMap.java")) {
+            if (file.name in listOf("mcmod.info", "MuteUselessLogs.java")) {
                 println("Processing ${file.name}")
                 var content = file.readText()
                 content = content.replace(Regex("\"version\": \"[^\"]*\""), "\"version\": \"$version\"")

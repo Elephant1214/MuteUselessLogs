@@ -3,7 +3,7 @@
         "modid": "muteuselesslogs",
         "name": "Mute Useless Logs",
         "description": "Mutes errors and warnings that just spam the game log and aren't very useful.",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mcversion": "1.12.2",
         "license": "MIT",
         "logoFile": "assets/muteuselesslogs/muteuselesslogs-icon.png",
